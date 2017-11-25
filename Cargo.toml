@@ -1,0 +1,11 @@
+[package]
+name = "newtype-derive"
+version = "0.1.0"
+authors = ["David Barsky <me@davidbarsky.com>"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "0.11.11"
+quote = "0.3.15"
